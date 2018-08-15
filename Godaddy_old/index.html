@@ -48,14 +48,27 @@
     <!-- Custom styles for this template -->
     <link href="css/coming-soon.min.css" rel="stylesheet">
 
+<style>
+body{
+    height:100%;
+}
+
+.banner{
+    height:100%;
+    background: url('img/julioFundo.jpeg') center center no-repeat;
+    background-size:contain;
+}
+</style>
+
+    
   </head>
 
-  <body >
-
+  <body>
+    <div class="banner">
     <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+<!--     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
       <source src="mp4/bg.mp4" type="video/mp4">
-    </video>
+    </video> -->
 
     <div class="masthead">
       <div class="masthead-bg"></div>
@@ -98,7 +111,7 @@
         </li>
       </ul>
     </div>
-
+  </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
