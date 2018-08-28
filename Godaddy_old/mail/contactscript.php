@@ -47,7 +47,8 @@
 	$headers	.= "From: $name <$email>\n";
 	$recipient	= "rafysanchez@hotmail.com";
 	$subject	= "teste";
-	$message	= wordwrap($message, 1024);
+	$message = "Contato para armazenagem de email quando o site abrir!";
+	//$message	= wordwrap($message, 1024);
 
 	// SEND THE EMAIL TO YOU
 	mail($recipient, $subject, $message, $headers);
